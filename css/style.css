@@ -1,0 +1,60 @@
+body{
+    width: 520px;
+    height: 600px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .form_main{
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+
+.main{
+    text-align: center;
+    padding-top: 20px;
+}
+.main h3{
+    color: rgb(58, 37, 37);
+}
+
+.main .form_main ul {
+   list-style: none;
+}
+.main .form_main ul li{
+   border-radius: 5px;
+   text-align: center;
+   background-color: antiquewhite;
+   margin: 5px 40px 10px 0px ; 
+ }
+
+ .main .form_main ul li label{
+    
+    padding: 5px 5px 0 5px;
+ }
+
+ .main .form_main ul li a{
+     display: block;
+  
+     font-size: 16px;
+   
+ }
+ .main .form_main ul li button{
+    
+    margin-bottom:10px; 
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+.btn-black:hover{
+    color: white !important;
+    background-color: rgb(43, 40, 40);
+}
+
+.btn-Special{
+    color: white;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}

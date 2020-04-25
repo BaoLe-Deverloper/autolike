@@ -1,0 +1,28 @@
+{
+    "name": "AutoFacebook",
+    "description": "My First Chrome Extension",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "images/fb.png",
+      "default_popup": "index.html"
+    },
+    "permissions": [
+      "storage"
+     
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.facebook.com/*"],
+        "css":["css/content.css"],
+        "js": ["js/jquery-3.2.1.min.js","js/sweetalert.min.js","js/content.js"]
+      }
+    ],
+    
+    "icons": {
+      "16": "images/facebook-16.png",
+      "32": "images/facebook-24.png",
+      "48": "images/facebook-64.png",
+      "128": "images/facebook-128.png"
+    },
+    "manifest_version": 2
+  }
